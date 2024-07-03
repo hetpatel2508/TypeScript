@@ -3,7 +3,7 @@
  type MyObjType ={
      a: string;
      b: number;
-     c: boolean;
+     c?: boolean;  // ? means c object hoy ke na hoy doesn't matter 
  }
  
  const temp1: MyObjType = { a: "Patel Het R", b: 30273, c: true };
